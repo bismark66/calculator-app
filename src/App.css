@@ -1,5 +1,9 @@
+/** @format */
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +39,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.main-Container {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 0 auto;
+}
+.hstack {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }

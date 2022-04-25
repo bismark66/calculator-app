@@ -5,7 +5,11 @@ import React, { Component } from "react";
 class ScreenOutput extends Component {
   state = {};
   render() {
-    return <div>hello</div>;
+      return (
+          <React.Fragment>
+            
+        </React.Fragment>
+    );
   }
 }
 
